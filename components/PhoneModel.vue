@@ -15,7 +15,7 @@
          
             <v-row>
               <v-col cols="12" sm="6" md="4">
-                 <v-select v-model='select1' :items="model" return-object item-text="manufacturer" outlined dense clearable></v-select>
+                 <v-select v-model='select1' :items="model" return-object item-text="manufacturer" outlined dense ></v-select>
               </v-col>
 
               <v-col cols="12" sm="6" md="4">

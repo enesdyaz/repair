@@ -6,7 +6,7 @@
          <phone-model></phone-model>
         </v-col>
         <v-col col='12' md='8'>
-          
+          <phone-list></phone-list>
         </v-col>
       </v-row>
     </v-container>
@@ -18,9 +18,11 @@
 <script>
 
 import PhoneModel from '../components/PhoneModel.vue'
+import PhoneList from '../components/PhoneList.vue'
 export default {
   components:{
     PhoneModel,
+    PhoneList
     
   }
 }
